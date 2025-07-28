@@ -1,0 +1,92 @@
+.login-container {
+  background: no-repeat url('/loginBg.png');
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+.blueDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1895ef;
+  display: inline-block;
+}
+
+.loginForm {
+  max-width: 60%;
+  width: 50%;
+}
+.registerBtn {
+  color: #fff;
+  width: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background: #4a505e;
+  border: none;
+  border-radius: 22px;
+  margin-top: 40px;
+  padding: 0.5rem 1.75rem;
+  font-size: 14px;
+}
+
+.errorText {
+  font-size: 12px;
+  color: #ff6565;
+}
+
+.button {
+  width: 50%;
+  color: #fff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background: #1895ef;
+  border: none;
+  border-radius: 22px;
+  margin-top: 40px;
+  padding: 0.5rem 1.75rem;
+  font-size: 14px;
+
+  &:hover {
+    background: #bf1650;
+  }
+
+  &:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+  }
+
+  &:hover {
+    transition: 0.3s all;
+  }
+}
+
+.loginInput {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.loginLabel {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
